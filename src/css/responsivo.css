@@ -1,0 +1,19 @@
+@media(max-width: 750px){
+  .Momentos{
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 5px;
+  }
+  .momento{
+    max-width: 420px;
+  }
+  .momento .texto{
+    padding: 10px 5px 5px;
+  }
+  .listagem{
+    max-width: 360px;
+  }
+  .listagem .momento.ativo{
+    max-width: 120%;
+  }
+}

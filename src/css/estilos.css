@@ -1,0 +1,121 @@
+body{
+    background-image: url("../imagens/surpresa/wallpaper2.jpeg");
+    background-position: center;
+    background-size: 100%;
+}
+h1{
+    background-color: maroon;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.Momentos{
+    display: flex;
+    gap: 5px;
+}
+.momento{
+    display: none;
+    background-color: crimson;
+    max-width: 720px;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.momento.aberto{
+    display: block;
+}
+.momento img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.momento .topo{
+    background-color: crimson;
+    padding: 20px 20px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.momento .momento1{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento2{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento3{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento4{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.momento .momento5{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento6{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento7{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento8{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento9{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento10{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento11{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento12{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}.momento .momento13{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+.momento .data{
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 2px 5px;
+} 
+.momento .texto{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px;
+}
+.momento .texto .conteudo{
+    max-height: 100%;
+    display: flex;
+    /* overflow-y: scroll; */
+}
+.listagem{
+    display: flex;
+    display: block;
+    width: 360px;
+}
+.momento.ativo{
+    display: block;
+}
+.listagem .momento.ativo img{
+    width: 10%;
+    padding: 5px;
+}
+.listagem .momento.ativo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    min-height: 120px;
+    transition: 0.15 ease-in-out;
+}
+.listagem .momento.ativo:hover{
+    transform: scale(1.05);
+}
+.listagem .momento.ativo span{
+    padding-left: 20px;
+}
